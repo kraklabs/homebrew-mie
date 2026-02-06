@@ -1,6 +1,6 @@
 # Homebrew Tap for MIE
 
-[MIE (Memory Intelligence Engine)](https://github.com/kraklabs/mie) is a persistent memory layer for AI agents. It provides semantic search, conflict detection, and graph-based memory management via the Model Context Protocol (MCP).
+Official Homebrew tap for [MIE (Memory Intelligence Engine)](https://github.com/kraklabs/mie).
 
 ## Installation
 
@@ -11,26 +11,26 @@ brew install mie
 
 ## Usage
 
-After installation, configure MIE as an MCP server in your AI tool of choice. For example, in Claude Desktop:
-
-```json
-{
-  "mcpServers": {
-    "mie": {
-      "command": "mie",
-      "args": ["--transport", "stdio"]
-    }
-  }
-}
+```bash
+mie init          # Create configuration
+mie --mcp         # Start MCP server
+mie status        # Check memory graph
 ```
 
-## Upgrading
+## Updating
 
 ```bash
 brew update
 brew upgrade mie
 ```
 
+## Available Formulas
+
+| Formula | Description |
+|---------|-------------|
+| `mie` | Memory Intelligence Engine - persistent memory layer for AI agents |
+
 ## License
 
-AGPL-3.0-or-later
+Copyright 2025-2026 KrakLabs
+GNU Affero General Public License v3.0 (AGPL-3.0-or-later)
