@@ -7,28 +7,28 @@
 class Mie < Formula
   desc "Memory Intelligence Engine - persistent memory layer for AI agents"
   homepage "https://github.com/kraklabs/mie"
-  version "0.1.6"
+  version "0.1.7"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/kraklabs/mie/releases/download/v0.1.6/mie_v0.1.6_darwin_arm64.tar.gz"
-      sha256 "b513d94cbe9e18b0b0a15dbc85585a1b7386419d5e55e57ca5bd10dc484d23db"
+      url "https://github.com/kraklabs/mie/releases/download/v0.1.7/mie_v0.1.7_darwin_arm64.tar.gz"
+      sha256 "ecedd628a794822f20425733f10d879c498e820224cf1e67712ce73485b49664"
     end
     on_intel do
-      url "https://github.com/kraklabs/mie/releases/download/v0.1.6/mie_v0.1.6_darwin_amd64.tar.gz"
-      sha256 "09d8339d67f3a735e781381e15963f1756e4097d158486d07be5156baf380f5d"
+      url "https://github.com/kraklabs/mie/releases/download/v0.1.7/mie_v0.1.7_darwin_amd64.tar.gz"
+      sha256 "e720ebb4aa561140ef5798d8166056b0bb4bbdccbb1883b6776efac81a18a8d4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kraklabs/mie/releases/download/v0.1.6/mie_v0.1.6_linux_arm64.tar.gz"
-      sha256 "427ad82ac252aed953db226b89bfe6d0fdfb81b07ba852bc4e5d1a608eea4d1c"
+      url "https://github.com/kraklabs/mie/releases/download/v0.1.7/mie_v0.1.7_linux_arm64.tar.gz"
+      sha256 "6b8313c2d1fe266ecd7784e213c7cc43c45f3d59ee12bdc362a98a95424091ac"
     end
     on_intel do
-      url "https://github.com/kraklabs/mie/releases/download/v0.1.6/mie_v0.1.6_linux_amd64.tar.gz"
-      sha256 "aa580a897336e23874733b396e1a56010910727d8efc434df7864dc65e938a33"
+      url "https://github.com/kraklabs/mie/releases/download/v0.1.7/mie_v0.1.7_linux_amd64.tar.gz"
+      sha256 "63396bbd8c5300119b7a5fb341b6801aa0c9d6fa0e24b264f4d5e3d1c8004e69"
     end
   end
 
