@@ -13,22 +13,22 @@ class Mie < Formula
   on_macos do
     on_arm do
       url "https://github.com/kraklabs/mie/releases/download/v1.3.0/mie_v1.3.0_darwin_arm64.tar.gz"
-      sha256 "5d77c7260f2ce7a8e60cb726ba3df2b8d0dd6eb682f4c7ce0c3ba5b4a6a715ad"
+      sha256 "0dd23b227d625a2effcca6ba0274e49e8cc72bb82e8993895bb395acb2c22586"
     end
     on_intel do
       url "https://github.com/kraklabs/mie/releases/download/v1.3.0/mie_v1.3.0_darwin_amd64.tar.gz"
-      sha256 "86bdbf60962ce762cd3c44480c63d05c576d3c059870c15c211e2740deccc7e7"
+      sha256 "abbc414e3615d5e1f53212405b42b01e3f354483d8cd006adf9810bb497afc12"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kraklabs/mie/releases/download/v1.3.0/mie_v1.3.0_linux_arm64.tar.gz"
-      sha256 "7616f8484dfcbf9be8f2a682bc13113619ad9ecb60ad52d93ff7f83ed7e2aafc"
+      sha256 "fc44dd771c8dc81cae7a067b0a5db20fca163d1b7be7f50587fda83135d45132"
     end
     on_intel do
       url "https://github.com/kraklabs/mie/releases/download/v1.3.0/mie_v1.3.0_linux_amd64.tar.gz"
-      sha256 "15ba1df44740e0da699aea19b60fd71d2c9630724e5df9639ecb5261182aef92"
+      sha256 "7777e1dd5a36754998094d3de338db0b8c85a4e6ce57cf81f7ddd087dd62cfa7"
     end
   end
 
